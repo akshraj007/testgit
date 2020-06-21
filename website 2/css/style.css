@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home-page{
+    height: 640px;
+    position: relative;
+}
+
+.home-page::after {
+    content: "";
+    background: linear-gradient( rgba(0,0,0,.4) 80%, rgba(255,255,255,0.4)), url('../images/Student-Online-Education.jpg');
+    background-size: 100% 110%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+ 
+  .navbar-brand{
+      color: white;
+      font-size: 20px!important ;
+      font-family: 'Raleway', sans-serif;
+      letter-spacing: 3px;
+  }
+   .navbar-toggle{
+      background-color: #ffffff!important;
+      
+  }
+.icon-bar{
+     background-color:black ; 
+  }
+.nav-item a{
+    color: white;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.home-content{
+    margin-top: 110px!important;
+}
+.home-content h1{
+    font-family: 'Suez One', serif;
+    letter-spacing: 3px;
+    font-weight: 900;
+    color: white;
+    font-size: 50px;
+    line-height: 70px;
+    padding-bottom: 13px;
+    
+}
+
+
+.home-content p{
+    color: rgb(19, 230, 19);
+    font-size: 20px;
+    font-family: 'Spectral', serif;
+    letter-spacing: 1px;
+  
+}
+.header-button{
+    margin-top: 40px;
+}
+.header-button a{
+    background-color: yellow;
+    border:1px solid #fff;
+    border-radius: 100px;
+    margin:0px 10px;
+    padding: 12px 35px;
+    color:#000;
+    font-family: 'Spectral', serif;
+    font-size: 20px;
+
+    text-align: center;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+.header-button a:hover{
+    color: #50d1c0;
+    background:#fff;
+    text-decoration: none;
+
+}
+/*-----------------------------------------home page ends here----------------------------------*/
+
+/*--------------------- courses page starts-----------------------*/
+
+.course-landing-page{
+    height:100vh;
+    position: relative;
+}
+
+.course-landing-page::after {
+    content: "";
+    background: linear-gradient( rgba(0,0,0,.4) 80%, rgba(255,255,255,0.4)), url('../images/CCC.jpeg');
+    background-size: 100% 110%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+
+  .course-page-content{
+     color: white;
+     position: absolute;
+     top: 40%;
+     left: 1%;
+     right: 1%;
+     text-align: center;
+     transform: translateY(-50%);
+     font-family: 'Spectral', serif;
+     margin-bottom: 20px;
+    
+  }
+  .course-page-content h1{
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-weight: 700;
+  }
+.course-page-content p{
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.course-heading{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 40px 0px 30px 0px;
+    font-family: 'Playfair Display', serif;
+}
+.course-section{
+    margin-bottom: 40px;
+    text-align: center;
+    display: grid;
+    justify-content: space-around;
+    
+}
+.courses-images{
+    width: 100%;
+    border: 1px solid grey; 
+    width: fit-content;
+    text-align: center;
+    font-weight: 700;
+    transition: .4s;
+}
+.image-resize{
+    width: 350px!important;
+    height: 200px!important;
+}
+.checked{
+    color: yellow;
+}
+
+.courses-images:hover{
+    transform: translateY(-10%);
+}
+.collection-heading{
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    margin:20px 0 ;
+}
+
+.course-icon-div{
+ 
+    font-weight: 700;
+    font-size: 30px;
+}
+.collection-div{
+    margin-bottom: 40px;
+    text-align: center;
+}
+.image-resize{
+   width: 350px!important;
+   height: 200px!important;
+}
+
+.courses-images1{
+    width: 100%;
+    width: fit-content;
+    text-align: center;
+    font-weight: 700;
+    transition: .4s;
+}
+.image-resize1{
+    width: 250px;
+}
+/*----------------------------course section ends-------------------------*/
+
+/*-----------------payment modes-----------------*/
+
+.payment-heading{
+    padding: 20px 0;
+    background-color: rgb(187, 238, 187);
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Spectral', serif;
+    
+}
+
+.payment-modes-div{
+    margin-top: 50px ;
+    display: grid;
+    justify-content:center ;
+    align-items: center;
+    
+}
+
+.payment-button{
+    font-size: 24px;
+    margin: 10px 0px;
+    padding: 8px 60px;
+    border: 5px solid black;
+    border-radius: 50px ;
+    color: black;
+    font-family: 'Spectral', serif;
+    text-align: center;
+}
+.payment-button:hover{
+    text-decoration: none;
+    color: white;
+    background-color:  rgb(187, 238, 187);
+}
+
+.debit-heading{
+    color: black;
+    font-weight: bold;
+    font-family: 'Spectral', serif;
+    text-align: center;
+    margin: 40px 0;
+
+}
+/*-----------------payment modes-----------------------*/
+
+/*-------------------------------debit card mode--------------*/
+.form-group{
+    height: 50px;
+}
+
+form  .proceed{
+  
+    width: auto;
+    background:black;
+    border-color: transparent;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top:20px ;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+}
+
+ form .proceed:hover{
+     background-color:rgb(187, 238, 187) ;
+     cursor: pointer;
+
+ }
+
+ /* -------------------------upi mode---------------------------*/
+.Upi-proceed{
+    margin-top: 20px;
+    background-color: black;
+    color: white!important;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 20px;
+    border: 3px solid white ;
+    border-radius: 50px;
+    text-decoration: none;
+
+}
+.Upi-proceed:hover{
+    text-decoration: none;
+}
+
+/*------------------------upi mode ends here ---------------------------*/
+
+/*------------------------payment-success-------------------------*/
+
+.payment-success{
+ 
+     display: grid;
+     justify-content: center;
+     align-items: center;
+     margin: 60px 0px;
+     text-align: center;
+}
+
+.success-button{
+    color: white;
+    margin: 10px 0;
+    padding: 10px 50px;
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: black;
+    font-size: 20px;
+    font-family: 'Spectral', serif;
+
+}
+.success-button:hover{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(187, 238, 187);
+}
+
+/*-----------------------footer starts------------------*/
+.footer{
+    width: 100%;
+    background: black;
+    display: block;
+    font-family: 'Raleway', sans-serif;
+   }
+   .inner-footer{
+     width: 95%;
+     margin: auto;
+     padding:30px 10px;
+     display: flex;
+     flex-wrap: wrap;
+     box-sizing: border-box;
+     justify-content: center;
+   }
+   .footer-items{
+     width: 25%;
+     padding: 10px 20px;
+     box-sizing: border-box;
+   }
+   .footer-items p{
+       font-size: 20px;
+   }
+  .footer-items h1{
+     padding: 10px 0;
+     font-size: 25px;
+     color: #ffff;
+     text-transform: uppercase;
+   }
+  .footer-items .li{
+     color: white;
+   }

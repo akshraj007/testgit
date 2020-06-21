@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<title>Education Hub</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("img/aboutus.png");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+.footer{
+ width: 100%;
+ background: black;
+ display: block;
+}
+.inner-footer{
+  width: 95%;
+  margin: auto;
+  padding:30px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: center;
+}
+.footer-items{
+  width: 25%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+h1{
+  padding: 10px 0;
+  font-size: 25px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.li{
+  color: #fff;
+}
+.jumbotron{
+  height: 250px;
+  width: 1500px;
+  background-color: #CCC8C8;
+}
+.btn{
+  background-color:#F84C4C;
+  color: #fff;
+  height: 50px;
+  width: 300px;
+
+}
+
+</style>
+<body>
+
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="homepage.html" class="w3-bar-item w3-button w3-wide">Education Hub</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="homepage.html" class="w3-bar-item w3-button"> HOME</a>
+      <a href="courses.html" class="w3-bar-item w3-button"> COURSE</a>
+      <a href="aboutus.html" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="review.html" class="w3-bar-item w3-button"> REVIEW</a>
+      <a href="cart.html" class="w3-bar-item w3-button"> CART</a> 
+      <a href="profile.html" class="w3-bar-item w3-button"><b>PROFIE</b></a>
+      
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+<!-- First Grid: Logo & About -->
+<div class="w3-row">
+  <div class="w3-half w3-black w3-container w3-center" style="height:1000px;width:30%">
+    <div class="w3-padding-64"><br>
+      <a href="#work" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16" style="font-size: 20px">Profile</a>
+      <a href="#work" class="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16" style="font-size: 20px">Account</a>
+      <a href="#contact" class="w3-button w3-black w3-block w3-hover-brown w3-padding-16" style="font-size: 20px">Course</a>
+       <a href="#work" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16" style="font-size: 20px">Privacy</a>
+      <a href="#work" class="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16" style="font-size: 20px">Support</a>
+      <a href="#contact" class="w3-button w3-black w3-block w3-hover-brown w3-padding-16" style="font-size: 20px">Complaints</a>
+      <a href="payment-modes.html" class="w3-button w3-black w3-block w3-hover-brown w3-padding-16" style="font-size: 20px">Payment</a>
+      <a href="#contact" class="w3-button w3-black w3-block w3-hover-brown w3-padding-16" style="font-size: 20px">Logout</a>
+  </div>
+  </div>
+  <div class="hero">
+    <div class="w3-padding-64 w3-center">
+      <h1 style="font-size: 45px;color: black">Your <span style="color: orange">Profile</span></h1>
+      <img src="images/picture.png" class="w3-margin w3-circle" alt="Person" style="height: 150px">
+      <div class="w3-center-align w3-padding-large">
+        <p style="font-size: 20px"><b>Pooja Sharma<br>poojasharma@xyz.com</b></p>
+        <p style="color: black;font-size: 40px">ADD <span style="color: orange">DETAILS</span>NOW ! </p>
+        <form>
+          <div class="jumbotron">
+  <div class="form-group row">
+    <label for="inputEmail3" class="col-sm-2 col-form-label"></label>
+    <div class="col-sm-8">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Enter Phone Number" required="">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="inputPassword3" class="col-sm-2 col-form-label"></label>
+    <div class="col-sm-8">
+      <input type="password" class="form-control" id="inputPassword3" placeholder="Company Name" required="">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="inputEmail3" class="col-sm-2 col-form-label"></label>
+    <div class="col-sm-8">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Designation" required="">
+    </div>
+  </div>
+</div>
+<button class="btn" type="button">SUBMIT YOUR DETAILS</button>
+</form>
+        <p></p>
+      </div>
+    </div>
+</div>
+</div>
+<!-- Footer -->
+<br>
+
+  <div class="footer">
+  <div class="inner-footer">
+    <div class="footer-items">
+      <h1 style="font-size: 30px">Education hub</h1>
+      <div class="w3-xlarge w3-section" style="color: white">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i></div>
+      <p style="color: white">We Educate Here</p>
+    </div>
+    <div class="footer-items">
+      <h1>Link</h1>
+      <div class="border"></div><br>
+       <ul>
+        <a href="aboutus.html" class="li">About us</a><br>
+        <a href="" class="li">Carrer</a><br>
+        <a href="" class="li">Blog</a><br>
+        <a href="" class="li">Privacy Policy</a><br>
+        <a href="" class="li">Terms and Condition</a><br>
+      </ul>
+    </div>
+    <div class="footer-items">
+      <h1>Download Now</h1>
+      <div class="border"></div>
+      <img src="images/about1-img.png" width="200"> 
+    </div>
+</div>
+    </div>
+
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
+
